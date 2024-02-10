@@ -2,14 +2,21 @@
 
 Not too advanced config of neovim
 
-Nord theme, language servers for popular languages, nerdtree etc
+- Nord theme
+- Nerdtree
+- Language servers for popular languages
+
+* C
+* Python
+* Golang
+
 
 ## Getting started
 
 ``` 
 cd ~/.config
 git clone git@github.com:2knarf/nvim.git
-apt install npm
+pacman -S npm go #needed for language servers
 nvim
 :PackerSync
 ``` 
