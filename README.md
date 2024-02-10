@@ -2,17 +2,6 @@
 
 Not too advanced config of neovim
 
-- Nord theme
-- Nerdtree
-
-Language servers for popular languages:
-
-* C
-* Python
-* Golang
-* Puppet
-
-
 ## Getting started
 
 ``` 
@@ -22,3 +11,16 @@ pacman -S npm go #needed for language servers
 nvim
 :PackerSync
 ``` 
+
+This repo gives you:
+
+- Nord theme
+- Nerdtree
+- Packer for package management
+
+Language servers for popular languages:
+
+* C
+* Python
+* Golang
+* Puppet
