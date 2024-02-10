@@ -1,6 +1,7 @@
 # nvim
 
 Not too advanced config of neovim
+
 ![sshot](https://github.com/2knarf/nvim/blob/main/screen.png?raw=true)
 
 ## Getting started
