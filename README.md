@@ -4,11 +4,13 @@ Not too advanced config of neovim
 
 - Nord theme
 - Nerdtree
-- Language servers for popular languages
+
+Language servers for popular languages:
 
 * C
 * Python
 * Golang
+* Puppet
 
 
 ## Getting started
