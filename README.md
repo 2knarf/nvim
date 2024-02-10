@@ -1,5 +1,9 @@
 # nvim
 
+Not too advanced config of neovim
+
+Nord theme, language servers for popular languages, nerdtree etc
+
 ## Getting started
 
 ``` 
