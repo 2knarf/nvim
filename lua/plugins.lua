@@ -57,6 +57,7 @@ return packer.startup(function(use)
 	use("shaunsingh/nord.nvim")
 	use("williamboman/mason.nvim")
 	use("williamboman/mason-lspconfig")
+	use("nvim-treesitter/nvim-treesitter")
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
 	end
