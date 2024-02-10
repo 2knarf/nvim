@@ -17,7 +17,8 @@ nvim
 This repo gives you:
 
 - Nord theme
-- Nerdtree
+- Telescope
+- Treesitter
 - Packer for package management
 
 Language servers for popular languages:
