@@ -62,7 +62,7 @@ require('mason').setup({})
 require('mason-lspconfig').setup({
   -- Replace the language servers listed here 
   -- with the ones you want to install
-  ensure_installed = {'docker_compose_language_service','awk_ls','bashls','marksman','dockerls','lua_ls','puppet', 'pyright', 'gopls','clangd','hydra_lsp'},
+  ensure_installed = {'docker_compose_language_service','bashls','marksman','dockerls','lua_ls','puppet', 'pyright', 'gopls','clangd','hydra_lsp'},
   handlers = {
     lsp_zero.default_setup,
   },
