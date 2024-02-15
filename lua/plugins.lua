@@ -1,4 +1,5 @@
 local fn = vim.fn
+require('lualine').setup()
 
 -- Automatically install packer
 local install_path = fn.stdpath("data") .. "/site/pack/packer/start/packer.nvim"
@@ -48,6 +49,7 @@ return packer.startup(function(use)
 	use("nvim-lua/plenary.nvim")
 	use("nvim-telescope/telescope.nvim")
 	use("mg979/vim-visual-multi")
+	use("nvim-lualine/lualine.nvim")
 	use("hrsh7th/nvim-cmp")
 	use("hrsh7th/cmp-vsnip")
 	use("hrsh7th/vim-vsnip")
